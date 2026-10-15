@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Awesome MindIE Skills</title>
+  <desc id="desc">Curated Agent Skills for Ascend Inference. Deploy, measure, analyze, optimize.</desc>
+  <rect width="1200" height="320" rx="24" fill="#F0FDFA"/>
+  <path d="M960 0L1200 240M1000 0L1200 200M920 0L1200 280" stroke="#CCFBF1" stroke-width="2"/>
+  <g transform="translate(58 92)">
+    <rect width="136" height="136" rx="32" fill="#0F766E"/>
+    <path d="M29 98V40L68 80L107 40V98" fill="none" stroke="#F8FAFC" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#F8FAFC"><circle cx="29" cy="98" r="7"/><circle cx="29" cy="40" r="7"/><circle cx="107" cy="40" r="7"/><circle cx="107" cy="98" r="7"/></g>
+    <circle cx="68" cy="80" r="11" fill="#C4B5FD" stroke="#0F766E" stroke-width="3"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="232" y="107" font-size="14" font-weight="700" letter-spacing="3" fill="#0F766E">ASCEND INFERENCE / COMMUNITY SKILLS</text>
+    <text x="230" y="166" font-size="49" font-weight="700" letter-spacing="-1.5" fill="#0F172A">Awesome MindIE Skills</text>
+    <text x="232" y="205" font-size="23" fill="#334155">Curated Agent Skills for Ascend Inference</text>
+    <text x="232" y="247" font-size="15" letter-spacing="1" fill="#0F766E">DEPLOY  /  MEASURE  /  ANALYZE  /  OPTIMIZE</text>
+  </g>
+  <g fill="none" stroke="#99F6E4" stroke-width="3">
+    <path d="M1000 228V116L1050 174L1100 116V228"/>
+  </g>
+  <g fill="#0F766E"><circle cx="1000" cy="228" r="5"/><circle cx="1000" cy="116" r="5"/><circle cx="1100" cy="116" r="5"/><circle cx="1100" cy="228" r="5"/></g>
+  <circle cx="1050" cy="174" r="7" fill="#7C3AED"/>
+</svg>

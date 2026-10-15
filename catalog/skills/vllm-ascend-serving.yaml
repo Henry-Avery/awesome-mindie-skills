@@ -1,0 +1,21 @@
+id: vllm-ascend-serving
+category: serving
+summary:
+  zh: 完成共置服务的版本配对、设备选择、启动、健康检查与清理。
+  en: Plan and review one colocated vLLM Ascend service lifecycle, including source pairing, device selection,
+    launch, health, and cleanup.
+tags:
+- vLLM Ascend
+execution: npu
+role: task
+source:
+  project: vllm-ascend-skills
+  path: skills/vllm-ascend-serving/SKILL.md
+  sha256: b7f12bc56a2125803a26160069b8002193a000729feb34419c7e6467aaacdd16
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

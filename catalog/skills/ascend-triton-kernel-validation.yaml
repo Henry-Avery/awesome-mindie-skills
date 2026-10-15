@@ -1,0 +1,22 @@
+id: ascend-triton-kernel-validation
+category: operators
+summary:
+  zh: 按 shape、dtype、layout 和 stride 矩阵验证候选与参考，检查执行路径和 fallback。
+  en: Validate an Ascend Triton candidate against a trusted reference with a declared case matrix and
+    fallback gate.
+tags:
+- Ascend
+- Triton
+execution: npu
+role: task
+source:
+  project: vllm-ascend-skills
+  path: skills/ascend-triton-kernel-validation/SKILL.md
+  sha256: 177e31b634801a5daee6af96f1303bdd5acd8aee4364e2040320a9a7e776d0d4
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

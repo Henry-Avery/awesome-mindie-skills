@@ -1,0 +1,21 @@
+id: triton-op-coding
+category: operators
+summary:
+  zh: 根据任务描述生成 Triton Ascend 内核，并结合错误反馈迭代代码。
+  en: Generate Triton Ascend kernels from task descriptions and iterate on code using error feedback.
+tags:
+- CANNBot
+- Triton
+execution: depends-on-checks
+role: task
+source:
+  project: cannbot-skills
+  path: ops/triton-op-coding/SKILL.md
+  sha256: 56290aa1799bc0c73aa2ab55e5679f728d4d35970818c5869b82c56d9360cb2f
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/cannbot-definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

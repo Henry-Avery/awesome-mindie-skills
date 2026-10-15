@@ -1,0 +1,21 @@
+id: ascend-operator-debug
+category: debugging
+summary:
+  zh: 将模型异常缩小到单算子调用，检查 dtype、shape、layout 与执行模式。
+  en: Reduce an Ascend model symptom to one operator call and validate its dtype, shape, layout and execution
+    modes.
+tags:
+- Ascend
+execution: npu
+role: task
+source:
+  project: vllm-ascend-skills
+  path: skills/ascend-operator-debug/SKILL.md
+  sha256: c1813a82b78500f8ae1a05abd8537df467d7aaa06937a4a55700b094ea672168
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

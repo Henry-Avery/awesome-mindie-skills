@@ -1,0 +1,22 @@
+id: ascend-model-multistream-overlap-skill
+category: optimization
+summary:
+  zh: 从源码与 trace 构建资源约束 DAG，设计多流重叠并配对验证收益。
+  en: Design Ascend model multistream overlap from verified source mapping, resource-aware DAGs and paired
+    validation.
+tags:
+- Ascend
+- Multistream
+execution: npu
+role: task
+source:
+  project: vllm-ascend-skills
+  path: skills/ascend-model-multistream-overlap-skill/SKILL.md
+  sha256: 663cffeb9ef5f61c6483bd46d6eaccd76856746061c38141aa4503cd09165ab0
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

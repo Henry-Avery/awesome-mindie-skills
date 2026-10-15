@@ -1,0 +1,21 @@
+id: vllm-ascend-change-validation
+category: delivery
+summary:
+  zh: 根据 baseline/candidate 差异确定构建、正确性与性能检查，报告通过项及覆盖缺口。
+  en: Map a vLLM or vllm-ascend diff to sufficient correctness, build and performance evidence and summarize
+    coverage.
+tags:
+- vLLM Ascend
+execution: depends-on-checks
+role: task
+source:
+  project: vllm-ascend-skills
+  path: skills/vllm-ascend-change-validation/SKILL.md
+  sha256: eadc839af5e3f5237eb830d35c635ad677596d1d7c2484b3deb760881488c62d
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

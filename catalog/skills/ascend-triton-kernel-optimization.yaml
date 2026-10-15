@@ -1,0 +1,21 @@
+id: ascend-triton-kernel-optimization
+category: operators
+summary:
+  zh: 对正确性通过的内核进行逐 shape 测量，结合 profiler 迭代优化。
+  en: Optimize a correctness-passed Ascend Triton kernel with per-shape measurements and profiler evidence.
+tags:
+- Ascend
+- Triton
+execution: npu
+role: task
+source:
+  project: vllm-ascend-skills
+  path: skills/ascend-triton-kernel-optimization/SKILL.md
+  sha256: d5665521672bf03b42d5b885414108c603973a1b851843ae21e6a40321314c93
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

@@ -1,0 +1,22 @@
+id: ascendc-direct-invoke-template
+category: operators
+summary:
+  zh: 按 Vector、Blaze Matmul 或 Kirin 路径选择 Ascend C Kernel 直调模板并搭建工程。
+  en: Select an Ascend C direct-invocation template for Vector, Blaze Matmul, or Kirin and scaffold the
+    operator project.
+tags:
+- CANNBot
+- Ascend C
+execution: depends-on-checks
+role: task
+source:
+  project: cannbot-skills
+  path: ops/ascendc-direct-invoke-template/SKILL.md
+  sha256: 65f8c98c5590b06dd448a2977b8ba5e871b6666614e907d1e803cca298fadb99
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/cannbot-definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

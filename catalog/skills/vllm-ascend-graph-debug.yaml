@@ -1,0 +1,22 @@
+id: vllm-ascend-graph-debug
+category: debugging
+summary:
+  zh: 通过受控实验和中间快照定位图捕获、回放及 eager/graph 分歧。
+  en: Localize Ascend graph capture, replay or eager/graph divergence with controlled experiments and
+    intermediate snapshots.
+tags:
+- vLLM Ascend
+- Graph
+execution: npu
+role: task
+source:
+  project: vllm-ascend-skills
+  path: skills/vllm-ascend-graph-debug/SKILL.md
+  sha256: 3b8c144e2b932bf9a2fbdff32784b90b6f549500d63ddb6706d70d573e526705
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

@@ -1,0 +1,22 @@
+id: vllm-ascend-profiling-collection
+category: profiling
+summary:
+  zh: 采集指定负载窗口的 torch-profiler 数据，检查请求成功与逐 rank 输出完整性。
+  en: Collect one vLLM Ascend serving torch-profiler case with a verified workload window and complete
+    rank outputs.
+tags:
+- vLLM Ascend
+- torch-profiler
+execution: npu
+role: task
+source:
+  project: vllm-ascend-skills
+  path: skills/vllm-ascend-profiling-collection/SKILL.md
+  sha256: d4261d492e245260eaf6346a07ce3f856908fe97b0becd15ca42613ddf9fac76
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

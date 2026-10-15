@@ -1,0 +1,20 @@
+id: vllm-ascend-performance-regression
+category: benchmarking
+summary:
+  zh: 交替运行基线与候选版本，在相同负载下比较性能变化与波动。
+  en: Compare baseline and candidate vLLM Ascend serving performance using controlled alternating runs.
+tags:
+- vLLM Ascend
+execution: npu
+role: task
+source:
+  project: vllm-ascend-skills
+  path: skills/vllm-ascend-performance-regression/SKILL.md
+  sha256: 8bf41e0637833de43e4607f8c08aa9c3a1cd6850b62b6f1ab6c93d496fd63c55
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

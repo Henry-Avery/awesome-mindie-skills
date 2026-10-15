@@ -1,0 +1,20 @@
+id: vllm-ascend-benchmark
+category: benchmarking
+summary:
+  zh: 对一个代码状态进行预热与重复测量，输出归一化吞吐和延迟指标。
+  en: Measure one vLLM Ascend online-serving code state with warmup, repeated runs and normalized metrics.
+tags:
+- vLLM Ascend
+execution: npu
+role: task
+source:
+  project: vllm-ascend-skills
+  path: skills/vllm-ascend-benchmark/SKILL.md
+  sha256: feeac14e0e4a326516a055b10d27ce6e62de3a7672311f587ac40a5f30a9827c
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

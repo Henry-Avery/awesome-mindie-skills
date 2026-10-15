@@ -1,0 +1,12 @@
+schema_version: 1
+sources:
+  vllm-ascend-skills:
+    repository: https://github.com/pisceskkk/vllm-ascend-skills
+    revision: 4e7417c3d88847a17ba6d61d6a9b748ad8e0bbc3
+    license: MIT
+    maintainer: pisceskkk
+  cannbot-skills:
+    repository: https://gitcode.com/cann/cannbot-skills
+    revision: 393564ae43f304426db2c206e361cd43b2811413
+    license: CANN Open Software License v2.0
+    maintainer: CANNBot SIG (cann)

@@ -1,0 +1,22 @@
+id: vllm-ascend-distributed-debug
+category: debugging
+summary:
+  zh: 根据拓扑和逐 rank 证据定位启动、collective、端点与卡死问题。
+  en: Diagnose Ascend multi-rank startup, collective, endpoint and hang failures using explicit topology
+    and per-rank evidence.
+tags:
+- vLLM Ascend
+- HCCL
+execution: npu
+role: task
+source:
+  project: vllm-ascend-skills
+  path: skills/vllm-ascend-distributed-debug/SKILL.md
+  sha256: dda99c4c498a56ff740870700c942f2d1bec04a88f210c3a02ad5505b476dcd4
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

@@ -1,0 +1,21 @@
+id: vllm-ascend-correctness-validation
+category: correctness
+summary:
+  zh: 设计确定性用例，比较代码版本、执行模式与 API 路径的输出。
+  en: Design and compare deterministic vLLM Ascend correctness cases across code states, execution modes
+    and API paths.
+tags:
+- vLLM Ascend
+execution: npu
+role: task
+source:
+  project: vllm-ascend-skills
+  path: skills/vllm-ascend-correctness-validation/SKILL.md
+  sha256: 2b2cac7a8fb707c59291eacc0297da34fb059ec036f7e4918164165b46bf70cd
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

@@ -1,0 +1,22 @@
+id: vllm-ascend-pd-serving
+category: serving
+summary:
+  zh: 部署 Prefill/Decode 分离服务，验证连接器、角色启动顺序与 KV 传输。
+  en: Plan and review prefill/decode vLLM Ascend serving with explicit roles, connectors, ordering and
+    KV transfer evidence.
+tags:
+- vLLM Ascend
+- PD
+execution: npu
+role: task
+source:
+  project: vllm-ascend-skills
+  path: skills/vllm-ascend-pd-serving/SKILL.md
+  sha256: 34e679d85e7cb0567efb26336102d4ab25cfd9ffd60d8ac65c4254924789b477
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

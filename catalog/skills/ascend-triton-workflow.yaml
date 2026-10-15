@@ -1,0 +1,22 @@
+id: ascend-triton-workflow
+category: operators
+summary:
+  zh: 协调 Triton 算子开发、正确性验证与性能优化，衔接各阶段证据。
+  en: Coordinate complete Ascend Triton operator development, correctness validation and optimization
+    with linked evidence.
+tags:
+- Ascend
+- Triton
+execution: npu
+role: workflow
+source:
+  project: vllm-ascend-skills
+  path: skills/ascend-triton-workflow/SKILL.md
+  sha256: 67cbae4abdd465938cf3a73e574da55438a797869f46178270686c79eda33fbb
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

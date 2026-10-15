@@ -1,0 +1,22 @@
+id: torch-custom-ops-guide
+category: operators
+summary:
+  zh: 为纯 Python 自定义算子设计注册、Meta 推导和 npugraph_ex 入图适配。
+  en: Design registration, Meta inference, and npugraph_ex graph integration for Python custom operators.
+tags:
+- CANNBot
+- PyTorch
+- npugraph_ex
+execution: depends-on-checks
+role: task
+source:
+  project: cannbot-skills
+  path: graph/torch-custom-ops-guide/SKILL.md
+  sha256: 42a3e40e84f9083e29e79bf3fa41d0cd558909324d965dbc2691648db72b92cf
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/cannbot-definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

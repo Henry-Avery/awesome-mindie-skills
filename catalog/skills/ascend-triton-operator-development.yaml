@@ -1,0 +1,21 @@
+id: ascend-triton-operator-development
+category: operators
+summary:
+  zh: 从 PyTorch 参考或 GPU Triton 实现开发首个 Ascend Triton 算子候选。
+  en: Develop the first correct Ascend Triton kernel from a PyTorch reference or a GPU Triton implementation.
+tags:
+- Ascend
+- Triton
+execution: npu
+role: task
+source:
+  project: vllm-ascend-skills
+  path: skills/ascend-triton-operator-development/SKILL.md
+  sha256: 10b3ffc01773c7ee8ce088ae7d7117db9250269084ad5bd0a1c7f689a90095b8
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

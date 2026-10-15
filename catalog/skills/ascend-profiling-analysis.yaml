@@ -1,0 +1,22 @@
+id: ascend-profiling-analysis
+category: profiling
+summary:
+  zh: 分析 rank、step、layer、block、算子及跨 rank 行为，输出可追溯的瓶颈证据。
+  en: Analyze Ascend profiler roots into rank, step, layer, block, operator and cross-rank findings with
+    traceable evidence.
+tags:
+- Ascend
+- Profiling
+execution: offline
+role: task
+source:
+  project: vllm-ascend-skills
+  path: skills/ascend-profiling-analysis/SKILL.md
+  sha256: 1e7533744305aa7d881a86ccf05d856dc076cab8f98da19f5beb833b670b97e9
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

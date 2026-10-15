@@ -1,0 +1,22 @@
+id: vllm-ascend-memory-profiling
+category: profiling
+summary:
+  zh: 将服务 HBM 占用归因到权重、KV cache、HCCL、激活与运行时，并说明残差。
+  en: Attribute Ascend HBM use during vLLM serving to weights, KV cache, HCCL, activations and runtime
+    components.
+tags:
+- vLLM Ascend
+- HBM
+execution: npu
+role: task
+source:
+  project: vllm-ascend-skills
+  path: skills/vllm-ascend-memory-profiling/SKILL.md
+  sha256: 9aa3b6beabbcf54292a5216a557c8f6d9fca64c8028b29331221025cf61159fe
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

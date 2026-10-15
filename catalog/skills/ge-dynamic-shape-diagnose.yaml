@@ -1,0 +1,21 @@
+id: ge-dynamic-shape-diagnose
+category: debugging
+summary:
+  zh: 根据 GE 编译日志定位 unknown graph 与动态 shape 调度的触发原因。
+  en: Identify unknown-graph and dynamic-shape scheduling triggers from GE compiler logs.
+tags:
+- CANNBot
+- GE
+execution: offline
+role: task
+source:
+  project: cannbot-skills
+  path: graph/ge-dynamic-shape-diagnose/SKILL.md
+  sha256: 90cb3afb76533f92de4828f38dfd45550703a86ff17139611826cb6d48bbae5a
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/cannbot-definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

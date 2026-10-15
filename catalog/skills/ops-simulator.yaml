@@ -1,0 +1,22 @@
+id: ops-simulator
+category: correctness
+summary:
+  zh: 使用 CANN Simulator 在主机执行算子精度和性能仿真，并分析流水线报告。
+  en: Use CANN Simulator on the host for operator correctness and performance simulation and pipeline
+    report analysis.
+tags:
+- CANNBot
+- CANN Simulator
+execution: host
+role: task
+source:
+  project: cannbot-skills
+  path: ops/ops-simulator/SKILL.md
+  sha256: be44a0c744b00923602f6ab1eeac3e2262f4e65a2c1a40852cad93a8aa420659
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/cannbot-definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []

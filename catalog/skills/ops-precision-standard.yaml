@@ -1,0 +1,22 @@
+id: ops-precision-standard
+category: correctness
+summary:
+  zh: 按算子语义和 dtype 选择精度比对规则，辅助构造验收标准与参考结果。
+  en: Select accuracy comparison rules by operator semantics and dtype to define acceptance criteria and
+    reference results.
+tags:
+- CANNBot
+- Ascend C
+execution: host
+role: task
+source:
+  project: cannbot-skills
+  path: ops/ops-precision-standard/SKILL.md
+  sha256: 09fdb58767c34b608925af637d5c7f2e9fe74f2f2998decadfbd72e79417c82f
+review:
+  status: definition-reviewed
+  date: '2026-10-15'
+  evidence: evidence/cannbot-definition-review-2026-10-15.md
+validation:
+  status: not-recorded
+  cases: []
