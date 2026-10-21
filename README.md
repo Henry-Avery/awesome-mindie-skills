@@ -63,12 +63,13 @@
 
 <!-- CATALOG:START -->
 
-53 个技能 · 10 个分类
+54 个技能 · 10 个分类
 
-定义已审阅：53 · 已有运行复现记录：0。具体范围见各条目记录。
+定义已审阅：54 · 已有运行复现记录：0。具体范围见各条目记录。
 
 | 来源项目 | 已收录 | 维护者 | 许可证 |
 |---|---|---|---|
+| [ascend-agent-skills](https://github.com/Henry-Avery/ascend-agent-skills) | 1 | Henry-Avery | MIT |
 | [vllm-ascend-skills](https://github.com/pisceskkk/vllm-ascend-skills) | 17 | pisceskkk | MIT |
 | [cannbot-skills](https://gitcode.com/cann/cannbot-skills) | 36 | CANNBot SIG (cann) | CANN Open Software License v2.0 |
 
@@ -113,6 +114,8 @@
   `CANNBot` `PyTorch` `Parallelism` `主机工具` · [条目](catalog/skills/model-infer-parallel-analysis.yaml)
 - [model-infer-parallel-impl](https://gitcode.com/cann/cannbot-skills/blob/393564ae43f304426db2c206e361cd43b2811413/model/model-infer-parallel-impl/SKILL.md) — 按确认的 TP/EP 配置改造并行层、通信组、权重和启动配置，并验证模型运行。
   `CANNBot` `PyTorch` `HCCL` `执行需 NPU` · [条目](catalog/skills/model-infer-parallel-impl.yaml)
+- [platform-agent-launch-config](https://github.com/Henry-Avery/ascend-agent-skills/blob/250fc8cd3da2a217ef0a4d84ff5ee5a9016a6f5a/skills/platform-agent-launch-config/SKILL.md) — 梳理推理平台启动链，生成平台填写材料和 Agent 节点脚本，并静态核对差异与缺项。
+  `vLLM Ascend` `AiClusterHub` `PD` `主机工具` · [条目](catalog/skills/platform-agent-launch-config.yaml)
 - [vllm-ascend-pd-serving](https://github.com/pisceskkk/vllm-ascend-skills/blob/4e7417c3d88847a17ba6d61d6a9b748ad8e0bbc3/skills/vllm-ascend-pd-serving/SKILL.md) — 部署 Prefill/Decode 分离服务，验证连接器、角色启动顺序与 KV 传输。
   `vLLM Ascend` `PD` `执行需 NPU` · [条目](catalog/skills/vllm-ascend-pd-serving.yaml)
 - [vllm-ascend-serving](https://github.com/pisceskkk/vllm-ascend-skills/blob/4e7417c3d88847a17ba6d61d6a9b748ad8e0bbc3/skills/vllm-ascend-serving/SKILL.md) — 完成共置服务的版本配对、设备选择、启动、健康检查与清理。

@@ -63,12 +63,13 @@ Each entry's metadata links to its review scope, reproduction cases, and evidenc
 
 <!-- CATALOG:START -->
 
-53 skills · 10 categories
+54 skills · 10 categories
 
-Definitions reviewed: 53 · Entries with execution reproductions: 0. See each entry's metadata for scope.
+Definitions reviewed: 54 · Entries with execution reproductions: 0. See each entry's metadata for scope.
 
 | Upstream Source | Listed | Maintainer | License |
 |---|---|---|---|
+| [ascend-agent-skills](https://github.com/Henry-Avery/ascend-agent-skills) | 1 | Henry-Avery | MIT |
 | [vllm-ascend-skills](https://github.com/pisceskkk/vllm-ascend-skills) | 17 | pisceskkk | MIT |
 | [cannbot-skills](https://gitcode.com/cann/cannbot-skills) | 36 | CANNBot SIG (cann) | CANN Open Software License v2.0 |
 
@@ -113,6 +114,8 @@ Deploy colocated or disaggregated services and verify topology, endpoints, and r
   `CANNBot` `PyTorch` `Parallelism` `Host tools` · [Metadata](catalog/skills/model-infer-parallel-analysis.yaml)
 - [model-infer-parallel-impl](https://gitcode.com/cann/cannbot-skills/blob/393564ae43f304426db2c206e361cd43b2811413/model/model-infer-parallel-impl/SKILL.md) — Implement approved TP/EP configurations across parallel layers, communication groups, weights, and launch settings, then validate execution.
   `CANNBot` `PyTorch` `HCCL` `NPU execution` · [Metadata](catalog/skills/model-infer-parallel-impl.yaml)
+- [platform-agent-launch-config](https://github.com/Henry-Avery/ascend-agent-skills/blob/250fc8cd3da2a217ef0a4d84ff5ee5a9016a6f5a/skills/platform-agent-launch-config/SKILL.md) — Trace an inference platform launch path, generate platform inputs and agent node scripts, and statically check differences and missing information.
+  `vLLM Ascend` `AiClusterHub` `PD` `Host tools` · [Metadata](catalog/skills/platform-agent-launch-config.yaml)
 - [vllm-ascend-pd-serving](https://github.com/pisceskkk/vllm-ascend-skills/blob/4e7417c3d88847a17ba6d61d6a9b748ad8e0bbc3/skills/vllm-ascend-pd-serving/SKILL.md) — Plan and review prefill/decode vLLM Ascend serving with explicit roles, connectors, ordering and KV transfer evidence.
   `vLLM Ascend` `PD` `NPU execution` · [Metadata](catalog/skills/vllm-ascend-pd-serving.yaml)
 - [vllm-ascend-serving](https://github.com/pisceskkk/vllm-ascend-skills/blob/4e7417c3d88847a17ba6d61d6a9b748ad8e0bbc3/skills/vllm-ascend-serving/SKILL.md) — Plan and review one colocated vLLM Ascend service lifecycle, including source pairing, device selection, launch, health, and cleanup.

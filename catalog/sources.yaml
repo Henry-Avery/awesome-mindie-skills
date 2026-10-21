@@ -1,5 +1,10 @@
 schema_version: 1
 sources:
+  ascend-agent-skills:
+    repository: https://github.com/Henry-Avery/ascend-agent-skills
+    revision: 250fc8cd3da2a217ef0a4d84ff5ee5a9016a6f5a
+    license: MIT
+    maintainer: Henry-Avery
   vllm-ascend-skills:
     repository: https://github.com/pisceskkk/vllm-ascend-skills
     revision: 4e7417c3d88847a17ba6d61d6a9b748ad8e0bbc3

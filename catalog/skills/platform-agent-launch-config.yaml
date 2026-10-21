@@ -1,0 +1,22 @@
+id: platform-agent-launch-config
+category: serving
+summary:
+  zh: 梳理推理平台启动链，生成平台填写材料和 Agent 节点脚本，并静态核对差异与缺项。
+  en: Trace an inference platform launch path, generate platform inputs and agent node scripts, and statically check differences and missing information.
+tags:
+- vLLM Ascend
+- AiClusterHub
+- PD
+execution: host
+role: task
+source:
+  project: ascend-agent-skills
+  path: skills/platform-agent-launch-config/SKILL.md
+  sha256: cfeb98afdf5aab940a1b8f97c93fdd5e826818662ec0e0f74f5eeb1316e428c5
+review:
+  status: definition-reviewed
+  date: '2026-10-21'
+  evidence: evidence/platform-agent-launch-config-definition-review-2026-10-21.md
+validation:
+  status: not-recorded
+  cases: []
