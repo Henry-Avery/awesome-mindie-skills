@@ -63,14 +63,15 @@
 
 <!-- CATALOG:START -->
 
-53 个技能 · 10 个分类
+54 个技能 · 10 个分类
 
-定义已审阅：53 · 已有运行复现记录：0。具体范围见各条目记录。
+定义已审阅：54 · 已有运行复现记录：0。具体范围见各条目记录。
 
 | 来源项目 | 已收录 | 维护者 | 许可证 |
 |---|---|---|---|
 | [vllm-ascend-skills](https://github.com/pisceskkk/vllm-ascend-skills) | 17 | pisceskkk | MIT |
 | [cannbot-skills](https://gitcode.com/cann/cannbot-skills) | 36 | CANNBot SIG (cann) | CANN Open Software License v2.0 |
+| [ascend-agent-skills](https://github.com/Henry-Avery/ascend-agent-skills) | 1 | Henry-Avery | MIT |
 
 - [环境与依赖](#environment)
 - [模型接入与转换](#model-integration)
@@ -258,6 +259,8 @@
   `CANNBot` `Ascend C` `主机工具` · [条目](catalog/skills/ascendc-code-review.yaml)
 - [vllm-ascend-change-validation](https://github.com/pisceskkk/vllm-ascend-skills/blob/4e7417c3d88847a17ba6d61d6a9b748ad8e0bbc3/skills/vllm-ascend-change-validation/SKILL.md) — 根据 baseline/candidate 差异确定构建、正确性与性能检查，报告通过项及覆盖缺口。
   `vLLM Ascend` `设备取决于检查项` · [条目](catalog/skills/vllm-ascend-change-validation.yaml)
+- [vllm-dev-chat-organization](https://github.com/Henry-Avery/ascend-agent-skills/blob/0d34abd7e3b2e599d8bc5d2bbded76d732fa1e4a/skills/vllm-dev-chat-organization/SKILL.md) — 按实际工作目标命名 vLLM 开发会话，整理指定范围，并在授权后准备或执行归档。
+  `vLLM` `vLLM Ascend` `主机工具` · [条目](catalog/skills/vllm-dev-chat-organization.yaml)
 
 <!-- CATALOG:END -->
 

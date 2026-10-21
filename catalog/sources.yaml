@@ -10,3 +10,8 @@ sources:
     revision: 393564ae43f304426db2c206e361cd43b2811413
     license: CANN Open Software License v2.0
     maintainer: CANNBot SIG (cann)
+  ascend-agent-skills:
+    repository: https://github.com/Henry-Avery/ascend-agent-skills
+    revision: 0d34abd7e3b2e599d8bc5d2bbded76d732fa1e4a
+    license: MIT
+    maintainer: Henry-Avery

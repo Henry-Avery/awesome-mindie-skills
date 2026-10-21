@@ -63,14 +63,15 @@ Each entry's metadata links to its review scope, reproduction cases, and evidenc
 
 <!-- CATALOG:START -->
 
-53 skills · 10 categories
+54 skills · 10 categories
 
-Definitions reviewed: 53 · Entries with execution reproductions: 0. See each entry's metadata for scope.
+Definitions reviewed: 54 · Entries with execution reproductions: 0. See each entry's metadata for scope.
 
 | Upstream Source | Listed | Maintainer | License |
 |---|---|---|---|
 | [vllm-ascend-skills](https://github.com/pisceskkk/vllm-ascend-skills) | 17 | pisceskkk | MIT |
 | [cannbot-skills](https://gitcode.com/cann/cannbot-skills) | 36 | CANNBot SIG (cann) | CANN Open Software License v2.0 |
+| [ascend-agent-skills](https://github.com/Henry-Avery/ascend-agent-skills) | 1 | Henry-Avery | MIT |
 
 - [Environment and dependencies](#environment)
 - [Model integration and conversion](#model-integration)
@@ -258,6 +259,8 @@ Map changes to build, correctness, and performance checks and record coverage.
   `CANNBot` `Ascend C` `Host tools` · [Metadata](catalog/skills/ascendc-code-review.yaml)
 - [vllm-ascend-change-validation](https://github.com/pisceskkk/vllm-ascend-skills/blob/4e7417c3d88847a17ba6d61d6a9b748ad8e0bbc3/skills/vllm-ascend-change-validation/SKILL.md) — Map a vLLM or vllm-ascend diff to sufficient correctness, build and performance evidence and summarize coverage.
   `vLLM Ascend` `Hardware depends on checks` · [Metadata](catalog/skills/vllm-ascend-change-validation.yaml)
+- [vllm-dev-chat-organization](https://github.com/Henry-Avery/ascend-agent-skills/blob/0d34abd7e3b2e599d8bc5d2bbded76d732fa1e4a/skills/vllm-dev-chat-organization/SKILL.md) — Name vLLM development chats by their actual goal, organize a specified scope, and prepare or perform authorized archival.
+  `vLLM` `vLLM Ascend` `Host tools` · [Metadata](catalog/skills/vllm-dev-chat-organization.yaml)
 
 <!-- CATALOG:END -->
 
