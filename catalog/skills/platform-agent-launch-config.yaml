@@ -12,7 +12,7 @@ role: task
 source:
   project: ascend-agent-skills
   path: skills/platform-agent-launch-config/SKILL.md
-  sha256: 052f12daecd4c77b520a7ae02c6a33141348b1041ddec3d8d5eb57648d68a5af
+  sha256: 1fd113b9e041e9d2699fe57c470acb0d2b85e799a2636ef2b038e824fc68818e
 review:
   status: definition-reviewed
   date: '2026-10-21'

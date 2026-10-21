@@ -114,7 +114,7 @@
   `CANNBot` `PyTorch` `Parallelism` `主机工具` · [条目](catalog/skills/model-infer-parallel-analysis.yaml)
 - [model-infer-parallel-impl](https://gitcode.com/cann/cannbot-skills/blob/393564ae43f304426db2c206e361cd43b2811413/model/model-infer-parallel-impl/SKILL.md) — 按确认的 TP/EP 配置改造并行层、通信组、权重和启动配置，并验证模型运行。
   `CANNBot` `PyTorch` `HCCL` `执行需 NPU` · [条目](catalog/skills/model-infer-parallel-impl.yaml)
-- [platform-agent-launch-config](https://github.com/Henry-Avery/ascend-agent-skills/blob/ddb498be699e1cfefc86be3355a0c4eadc3fa5e3/skills/platform-agent-launch-config/SKILL.md) — 梳理推理平台启动链，复用已有配置，整理填写说明、Agent 脚本、差异与缺项，供人工或 Agent 接续。
+- [platform-agent-launch-config](https://github.com/Henry-Avery/ascend-agent-skills/blob/c95957444543f136fa30ba054d1afd5cf3900622/skills/platform-agent-launch-config/SKILL.md) — 梳理推理平台启动链，复用已有配置，整理填写说明、Agent 脚本、差异与缺项，供人工或 Agent 接续。
   `vLLM Ascend` `AiClusterHub` `PD` `主机工具` · [条目](catalog/skills/platform-agent-launch-config.yaml)
 - [vllm-ascend-pd-serving](https://github.com/pisceskkk/vllm-ascend-skills/blob/4e7417c3d88847a17ba6d61d6a9b748ad8e0bbc3/skills/vllm-ascend-pd-serving/SKILL.md) — 部署 Prefill/Decode 分离服务，验证连接器、角色启动顺序与 KV 传输。
   `vLLM Ascend` `PD` `执行需 NPU` · [条目](catalog/skills/vllm-ascend-pd-serving.yaml)
