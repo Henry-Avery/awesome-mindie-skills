@@ -114,7 +114,7 @@ Deploy colocated or disaggregated services and verify topology, endpoints, and r
   `CANNBot` `PyTorch` `Parallelism` `Host tools` · [Metadata](catalog/skills/model-infer-parallel-analysis.yaml)
 - [model-infer-parallel-impl](https://gitcode.com/cann/cannbot-skills/blob/393564ae43f304426db2c206e361cd43b2811413/model/model-infer-parallel-impl/SKILL.md) — Implement approved TP/EP configurations across parallel layers, communication groups, weights, and launch settings, then validate execution.
   `CANNBot` `PyTorch` `HCCL` `NPU execution` · [Metadata](catalog/skills/model-infer-parallel-impl.yaml)
-- [platform-agent-launch-config](https://github.com/Henry-Avery/ascend-agent-skills/blob/250fc8cd3da2a217ef0a4d84ff5ee5a9016a6f5a/skills/platform-agent-launch-config/SKILL.md) — Trace an inference platform launch path, generate platform inputs and agent node scripts, and statically check differences and missing information.
+- [platform-agent-launch-config](https://github.com/Henry-Avery/ascend-agent-skills/blob/ddb498be699e1cfefc86be3355a0c4eadc3fa5e3/skills/platform-agent-launch-config/SKILL.md) — Trace an inference platform launch path and reuse existing configuration to prepare field guidance, agent scripts, differences, and gaps for a human or agent handoff.
   `vLLM Ascend` `AiClusterHub` `PD` `Host tools` · [Metadata](catalog/skills/platform-agent-launch-config.yaml)
 - [vllm-ascend-pd-serving](https://github.com/pisceskkk/vllm-ascend-skills/blob/4e7417c3d88847a17ba6d61d6a9b748ad8e0bbc3/skills/vllm-ascend-pd-serving/SKILL.md) — Plan and review prefill/decode vLLM Ascend serving with explicit roles, connectors, ordering and KV transfer evidence.
   `vLLM Ascend` `PD` `NPU execution` · [Metadata](catalog/skills/vllm-ascend-pd-serving.yaml)

@@ -2,9 +2,9 @@
 
 - Review date: 2026-10-21.
 - Source: [Henry-Avery/ascend-agent-skills](https://github.com/Henry-Avery/ascend-agent-skills), maintained by Henry-Avery, MIT.
-- Source revision: `250fc8cd3da2a217ef0a4d84ff5ee5a9016a6f5a`.
-- Definition: [skills/platform-agent-launch-config/SKILL.md](https://github.com/Henry-Avery/ascend-agent-skills/blob/250fc8cd3da2a217ef0a4d84ff5ee5a9016a6f5a/skills/platform-agent-launch-config/SKILL.md).
-- Definition SHA-256: `cfeb98afdf5aab940a1b8f97c93fdd5e826818662ec0e0f74f5eeb1316e428c5`.
+- Source revision: `ddb498be699e1cfefc86be3355a0c4eadc3fa5e3`.
+- Definition: [skills/platform-agent-launch-config/SKILL.md](https://github.com/Henry-Avery/ascend-agent-skills/blob/ddb498be699e1cfefc86be3355a0c4eadc3fa5e3/skills/platform-agent-launch-config/SKILL.md).
+- Definition SHA-256: `052f12daecd4c77b520a7ae02c6a33141348b1041ddec3d8d5eb57648d68a5af`.
 - Files inspected: the complete skill directory (one `SKILL.md`), source repository guidance, README entry, and license.
 - Related requirement: [Issue #5](https://github.com/mindie-agent/awesome-mindie-skills/issues/5).
 
@@ -14,7 +14,9 @@ The skill traces platform inputs through configuration storage, parameter calcul
 
 The reviewed definition addresses source-versus-deployment revision uncertainty, changes in the inspected working tree, conflicting representations, dynamic launcher arguments, and reverse conversion of per-node values into reusable platform templates. It directs readiness and stopping back to the existing lifecycle workflow. It contains methods and relative source pointers, not platform implementation code.
 
-Unlike the existing serving skills, this task ends at configuration generation and static inspection. It does not submit forms, assign devices, install environments, start or stop services, or require a UI/MCP integration. Host-side analysis needs user-supplied source and configuration artifacts; a PR link alone is insufficient.
+Unlike the existing serving skills, this task ends at a usable handoff, configuration generation, and static inspection. It first recovers matching configuration from the current project's accessible records rather than requiring repeated input. The handoff identifies the goal, baseline, completed work, reusable values, proposed changes, unresolved fields, artifacts, and ordered next steps. Missing fields may remain explicit gaps; completing every form field is not an acceptance requirement.
+
+The definition does not submit forms, assign devices, install environments, start or stop services, or require a UI/MCP integration. Automatic form filling, full parameter completion, and platform-specific interfaces are left to separate future adapters. Bare PR routing remains under existing project conventions. A PR alone is not evidence of a particular environment when no matching context exists.
 
 ## Validation limits
 
